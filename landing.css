@@ -1,0 +1,331 @@
+@font-face {
+    font-family: "CanelaCondensed";
+    src: url(fonts/CanelaCondensed-Bold-Trial.otf);
+}
+
+p{
+    font-family: CanelaCondensed;
+}
+.mainimg{
+    background: linear-gradient(90deg, rgb(27 25 25), rgb(13 13 14 / 83%)), url(images/katrinka.jpg);
+    
+    /* background-image: url(); */
+    width: 100%;
+    filter: contrast(100%);
+    
+}
+.header{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 104px;
+}
+.contact{
+    width: 100px;
+    height: 100px;
+    display:inline block   ;
+}
+.nav{
+list-style: none;
+text-align: center;
+display: flex;
+color: white;
+}
+.nav li{
+    padding: 20px;
+ 
+}
+.logo{
+    margin-left: 50px ;
+}
+.contact{
+    width: 143px;
+    height: 48px;
+    background-color: #D3F85A;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tekst span{
+color: yellow;
+font-family: CanelaCondensed;
+}
+.explore{
+    background-image: url(images/cta22.png);
+    width: 178px;
+    height: 52px;
+}
+.tekst{
+    padding: 20px;
+    
+    color: aliceblue;
+}
+.hero{
+    background-image: url(images/Group\ 3.png);
+    width: 527px;
+    height: 542px;
+    margin-left: 266px;
+   
+}
+.tekst h1{
+   
+    line-height: 60px;
+    
+}
+.tektieshe{
+    display: flex;
+    flex-wrap: wrap;
+}
+.stats{
+    width: 200px;
+    height: 200px;
+
+    display:inline-block ;
+}
+.tekst2 span{
+    color: yellowgreen;
+}
+.tekst2{
+    font-size: x-large;
+    /* margin-top: 125px; */
+    color: white;
+    width: 370px;
+    height: 140px;
+}
+.knopka {
+    height: 100px;
+    width: 100px;
+    /* margin-left: 1100px;
+    margin-bottom: 400px; */
+  
+   
+   
+}
+.tekstiknopka{
+display: flex;
+justify-content: space-between;
+align-self: center;
+flex-wrap: wrap;
+width: 100%;
+}
+
+
+
+.kartinki3{
+    display:inline-block;
+    margin-left: 100px;
+}
+.kartinki3 img{
+    margin: 10px;
+    width: 425px;
+}
+.kartinki2 img{
+width: 740px;
+
+}
+
+
+.tekst3 h3{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+
+}
+.tekst3 span{
+    color: #a5c53c;
+}
+.tekst3{
+    margin-top: 100px;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 0px;
+}
+.stran3{
+    display: flex;
+    flex-wrap: wrap;
+}.kartinki2{
+    padding-left: 150px;
+   margin-top: 20px;
+}
+.knopka img{
+    margin: 50px;
+}
+.belteksezknop h4{
+    font-size: 50px;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.belteksezknop span{
+    color:#D3F85A;
+    ;
+}
+.belteksezknop img{
+    width: 178px;
+    height: 60px;
+}
+.belteksezknop{
+  margin-left:40px;
+}
+.str4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shortpic{
+    /* display: flex;
+    width: 850px;
+    height: 652px; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 841px;
+}
+.cartinki5{
+    display: flex;
+    flex-wrap: wrap;
+}
+.longpic{
+    /* width: 410px;
+    height:652px ; */
+    margin: 20px;
+}
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer .loga {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer .loga p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.footer .social-icons a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer .column {
+    margin: 10px 0;
+    min-width: 150px;
+}
+
+.footer .column h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer .column a {
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.footer .column a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+@media(max-width:600px){
+    .menu{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .hero{
+        margin-left: 0px;
+        width: 100%;
+       background-size: 85%;
+       background-repeat: no-repeat;
+       background-position: center;
+       
+    }
+    .mainimg{
+        width: 100%;
+     
+    }
+    .kartinki3{
+        margin: 0px;
+    }
+    .kartinki2{
+         margin-left: 0px;
+        padding-left: 0px;
+
+
+    }
+    .kartinki2 img{
+        width: 100%;
+      
+    }
+    .cartinggg{
+        display: none;
+    }
+
+    .cartinki5 img {
+        width: 300px;
+        height: 311px;
+    }
+    .footer div{
+        width: 100%;
+    }
+    .menumobile .pol1{
+        width: 32px;
+        height:3px;
+        background-color: white;
+        margin: 10px;
+    }
+     .menumobile .pol2{
+        width: 32px;
+        height:3px;
+        background-color: white;
+        margin: 10px;
+    }
+     .menumobile .pol3{
+        width: 32px;
+        height:3px;
+        background-color: white;
+        margin: 10px;
+    }
+    .kartinki3 img {
+        width: 100%;
+    }
+      
+    
+   
+    
+        
+    
+
+}
