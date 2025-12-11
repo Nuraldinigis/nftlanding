@@ -299,48 +299,7 @@ width: 740px;
     }
     .footer div{
         width: 100%;
-    }
-    .menumobile .pol1{
-        width: 32px;
-        height:3px;
-        background-color: white;
-        margin: 10px;
-    }
-     .menumobile .pol2{
-        width: 32px;
-        height:3px;
-        background-color: white;
-        margin: 10px;
-    }
-     .menumobile .pol3{
-        width: 32px;
-        height:3px;
-        background-color: white;
-        margin: 10px;
-    }
-    .kartinki3 img {
-        width: 100%;
-    }
-      
-    
-    .mobile-menu {
-  right: -250px;
-  transition: 0.3s;
-}
-
-.mobile-menu.active {
-  right: 0;
-}
-
-.menu-btn.active span:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
-.menu-btn.active span:nth-child(2) {
-  opacity: 0;
-}
-.menu-btn.active span:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-}
+    }}
 
    
     
@@ -349,3 +308,4 @@ width: 740px;
 
 
 }
+
